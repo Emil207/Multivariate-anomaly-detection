@@ -406,7 +406,7 @@
   \newcommand*\tp@copyright@{\copyright{} \tp@year@{} by \tp@author@.
     All rights reserved.\\}
   \@ifundefined{thesis@lang}%
-    {\newcommand*\LUlogo{LUBWen}%
+    {\newcommand*\LUlogo{images/LUBWen}%
       \newcommand*\tp@department@{Faculty of Engineering, Centre for  Mathematical Sciences, Mathematical Statistics  
       }
       \newcommand*\tp@type@{MSc Thesis}%
