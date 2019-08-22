@@ -1,0 +1,3 @@
+[submodule "telemanom"]
+	path = Code/MAD/telemanom
+	url = https://github.com/khundman/telemanom.git
