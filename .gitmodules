@@ -1,6 +1,0 @@
-[submodule "Code/Code/MAD/telemanom"]
-	path = Code/Code/MAD/telemanom
-	url = https://github.com/khundman/telemanom.git
-[submodule "Code/telemanom"]
-	path = Code/telemanom
-	url = https://github.com/khundman/telemanom.git
