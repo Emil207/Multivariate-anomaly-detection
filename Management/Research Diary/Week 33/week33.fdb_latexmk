@@ -1,0 +1,15 @@
+# Fdb version 3
+["pdflatex"] 1566808731 "week33.tex" "week33.pdf" "week33" 1566808732
+  "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
+  "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls" 1544567569 19933 3097d1b31d3c45dc957096f554529032 ""
+  "/usr/local/texlive/2019/texmf-dist/tex/latex/base/size11.clo" 1544567569 8310 3be7fb8fac17ab8f3f822aa0c9800815 ""
+  "/usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf" 1557092114 35484 cb1661360667bf4db662a8895053b554 ""
+  "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1557342086 4259635 562fc36ec496993777a6c428d8bfb811 ""
+  "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
+  "Misc/diary.sty" 0 -1 0 ""
+  "week33.aux" 1566808731 8 a94a2480d3289e625eea47cd1b285758 ""
+  "week33.tex" 1566433283 6495 67a0c1d31f78980dfa109ee005cf187c ""
+  (generated)
+  "week33.pdf"
+  "week33.log"

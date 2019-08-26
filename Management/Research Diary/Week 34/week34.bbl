@@ -1,0 +1,107 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Aggarwal2013a}{book}{}
+      \name{author}{1}{}{%
+        {{hash=86d11a07b1bfeac58dc68f7a419b3039}{%
+           family={Aggarwal},
+           familyi={A\bibinitperiod},
+           given={Charu\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{fullhash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{bibnamehash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{authorbibnamehash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{authornamehash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{authorfullhash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Outlier Analysis}
+      \field{isbn}{9781461463962}
+      \field{issn}{1935-8237}
+      \field{title}{{Outlier analysis (book)}}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 446}
+      \range{pages}{446}
+      \verb{doi}
+      \verb 10.1007/978-1-4614-6396-2
+      \endverb
+    \endentry
+    \entry{Li2019a}{article}{}
+      \name{author}{6}{}{%
+        {{hash=fc63986540b002fd74244549ce74082f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9142e87fd09beabb5284d572dab11993}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Dacheng},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a3a6ddf32b96c99874c9f76d86efa2cf}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b68b06d0eda1d9a1c5c8905fba1f35bf}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Baihong},
+           giveni={B\bibinitperiod}}}%
+        {{hash=66580f0ffa3539dcc125f05e39cd7837}{%
+           family={Goh},
+           familyi={G\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a92d1ca972ec7d08ae7a664d63d96c49}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={See-Kiong},
+           giveni={S\bibinithyphendelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5ced9aa7c79e3e048e3f1b031f76bc1}
+      \strng{fullhash}{9d95dea1a9630e64f3084b74dc0c38f3}
+      \strng{bibnamehash}{b5ced9aa7c79e3e048e3f1b031f76bc1}
+      \strng{authorbibnamehash}{b5ced9aa7c79e3e048e3f1b031f76bc1}
+      \strng{authornamehash}{b5ced9aa7c79e3e048e3f1b031f76bc1}
+      \strng{authorfullhash}{9d95dea1a9630e64f3084b74dc0c38f3}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{{MAD-GAN: Multivariate Anomaly Detection for Time Series Data with Generative Adversarial Networks}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1901.04997
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1901.04997
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

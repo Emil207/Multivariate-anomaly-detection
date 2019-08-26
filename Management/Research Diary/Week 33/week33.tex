@@ -5,7 +5,7 @@
 \newcommand{\workingDate}{\textsc{2019 $|$ August $|$ Week 33}}
 
 
-\usepackage{Misc/diary}
+\usepackage{diary}
 
 \begin{document}
 \univlogo
@@ -26,12 +26,12 @@ Initiating
 
 \section*{Wednesday, August 14}
 \textit{Evaluation of techniques}
-Use ROC-curve to represent trade-off. Measure area under the curve. (False positives/Detection rate) 
+Use ROC-curve to represent trade-off. Measure area under the curve. (False positives/Detection rate)
 Src: Outlier Detection Techniques for Wireless Sensor Networks: A Survey
 
 \textit{Challenges}
 "The detection of anomalies in multivariate time series
-is more challenging for several reasons. First, it is difficult to establish a concise definition of an anomaly. Analogous to univariate time series, some anomalies may correspond to abnormally high (or low) values or unusual subsequences in one or more time series. In addition, the multivariate anomalies may correspond to unexpected changes in the relationships among a set of variables. For example, the time series for vegetation cover at mid- latitude locations in the United States typically varies in a 12-month cycle, peaking during the warm summer months and dropping to its minimum during the cold winter. Ecosystem disturbances such as wildfire and drought can be potentially detected based on the unusually low values of vegetation cover observed in the summer. Such anomalies are considered to be “local” (as opposed to global anomalies) since their values are abnormally low when compared to the average values observed during the warm summer months. Second, the performance of a multivariate anomaly detection algorithm is highly susceptible to the presence of noise in one or more time series. Therefore, a multivariate anomaly detection algorithm must be robust to noisy measurements in the time series data in order to increase its detection rate and to reduce its false alarm rate." 
+is more challenging for several reasons. First, it is difficult to establish a concise definition of an anomaly. Analogous to univariate time series, some anomalies may correspond to abnormally high (or low) values or unusual subsequences in one or more time series. In addition, the multivariate anomalies may correspond to unexpected changes in the relationships among a set of variables. For example, the time series for vegetation cover at mid- latitude locations in the United States typically varies in a 12-month cycle, peaking during the warm summer months and dropping to its minimum during the cold winter. Ecosystem disturbances such as wildfire and drought can be potentially detected based on the unusually low values of vegetation cover observed in the summer. Such anomalies are considered to be “local” (as opposed to global anomalies) since their values are abnormally low when compared to the average values observed during the warm summer months. Second, the performance of a multivariate anomaly detection algorithm is highly susceptible to the presence of noise in one or more time series. Therefore, a multivariate anomaly detection algorithm must be robust to noisy measurements in the time series data in order to increase its detection rate and to reduce its false alarm rate."
 Src: Detection and Characterization of Anomalies in Multivariate Time Series
 
 \textit{Classification of detection techniques}
@@ -39,7 +39,7 @@ Src: Detection and Characterization of Anomalies in Multivariate Time Series
 \item Statistical
 \begin{itemize}
 \item Parametric
-\item Non-parametric 
+\item Non-parametric
 \end{itemize}
 \item Nearest neighbour-based
 \item Clustering
@@ -49,24 +49,24 @@ Src: Detection and Characterization of Anomalies in Multivariate Time Series
 \item Classification
 \item Spectral decomposition
 \begin{itemize}
-\item 
+\item
 \end{itemize}
-\item Local outlier factor (LOF)?	
+\item Local outlier factor (LOF)?
 \end{enumerate}
 Src: Outlier Detection Techniques for Wireless Sensor Networks: A Survey
 
 In layman terms PCA helps to compress data and ICA helps to separate data.
 
-"Change can occur slowly over time or abruptly, Outliers in a time series are either contextual (9.2) or collective (9.3) anomalies. Outliers are contextual when the values at specific time stamps suddenly change with respect to their temporally adjacent values, whereas outlier are collective when entire time series or large subsequences within a time series have unusual shapes." Outlier analysis 
+"Change can occur slowly over time or abruptly, Outliers in a time series are either contextual (9.2) or collective (9.3) anomalies. Outliers are contextual when the values at specific time stamps suddenly change with respect to their temporally adjacent values, whereas outlier are collective when entire time series or large subsequences within a time series have unusual shapes." Outlier analysis
 
 Frågor:
 Hur kan metoderna generaliseras?
 Unsupervised/supervised?
-Typ av tidsserie spelar stor roll för metodval. 
+Typ av tidsserie spelar stor roll för metodval.
 Online vs offline?
 
 \section*{Thursday, August 15}
-Överblick av metoder för anomalidetteektion 
+Överblick av metoder för anomalidetteektion
 https://blog.statsbot.co/time-series-anomaly-detection-algorithms-1cef5519aef2
 
 \textbf{Sammanfattning av denna:}
@@ -107,6 +107,6 @@ https://arxiv.org/ftp/arxiv/papers/1812/1812.00890.pdf
 
 \section*{Friday, August 16}
 
-\printbibliography 
+\printbibliography
 
 \end{document}

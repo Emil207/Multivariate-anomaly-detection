@@ -1,0 +1,12 @@
+PWD /Users/Emil/Documents/Emil Andersson/Utbildning/Universitet/Exjobb/Multivariate-anomaly-detection/Management/Research Diary/Week 33
+INPUT /usr/local/texlive/2019/texmf.cnf
+INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT week33.tex
+OUTPUT week33.log
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
