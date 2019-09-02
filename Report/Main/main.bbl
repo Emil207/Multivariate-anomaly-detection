@@ -1,0 +1,192 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Aggarwal2013a}{book}{}
+      \name{author}{1}{}{%
+        {{hash=86d11a07b1bfeac58dc68f7a419b3039}{%
+           family={Aggarwal},
+           familyi={A\bibinitperiod},
+           given={Charu\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{fullhash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{bibnamehash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{authorbibnamehash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{authornamehash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{authorfullhash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Signatur 1562/310}
+      \field{booktitle}{Outlier Analysis}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{9781461463962}
+      \field{issn}{1935-8237}
+      \field{title}{{Outlier analysis (book)}}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 446}
+      \range{pages}{446}
+      \verb{doi}
+      \verb 10.1007/978-1-4614-6396-2
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1011.1669v3
+      \endverb
+      \verb{file}
+      \verb :Users/Emil/Library/Application Support/Mendeley Desktop/Downloaded/Aggarwal - 2013 - Outlier analysis (book)(3).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Li2019a}{article}{}
+      \name{author}{6}{}{%
+        {{hash=fc63986540b002fd74244549ce74082f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9142e87fd09beabb5284d572dab11993}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Dacheng},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a3a6ddf32b96c99874c9f76d86efa2cf}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b68b06d0eda1d9a1c5c8905fba1f35bf}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Baihong},
+           giveni={B\bibinitperiod}}}%
+        {{hash=66580f0ffa3539dcc125f05e39cd7837}{%
+           family={Goh},
+           familyi={G\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a92d1ca972ec7d08ae7a664d63d96c49}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={See-Kiong},
+           giveni={S\bibinithyphendelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5ced9aa7c79e3e048e3f1b031f76bc1}
+      \strng{fullhash}{9d95dea1a9630e64f3084b74dc0c38f3}
+      \strng{bibnamehash}{9d95dea1a9630e64f3084b74dc0c38f3}
+      \strng{authorbibnamehash}{9d95dea1a9630e64f3084b74dc0c38f3}
+      \strng{authornamehash}{b5ced9aa7c79e3e048e3f1b031f76bc1}
+      \strng{authorfullhash}{9d95dea1a9630e64f3084b74dc0c38f3}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The prevalence of networked sensors and actuators in many real-world systems such as smart buildings, factories, power plants, and data centers generate substantial amounts of multivariate time series data for these systems. The rich sensor data can be continuously monitored for intrusion events through anomaly detection. However, conventional threshold-based anomaly detection methods are inadequate due to the dynamic complexities of these systems, while supervised machine learning methods are unable to exploit the large amounts of data due to the lack of labeled data. On the other hand, current unsupervised machine learning approaches have not fully exploited the spatial-temporal correlation and other dependencies amongst the multiple variables (sensors/actuators) in the system for detecting anomalies. In this work, we propose an unsupervised multivariate anomaly detection method based on Generative Adversarial Networks (GANs). Instead of treating each data stream independently, our proposed MAD-GAN framework considers the entire variable set concurrently to capture the latent interactions amongst the variables. We also fully exploit both the generator and discriminator produced by the GAN, using a novel anomaly score called DR-score to detect anomalies by discrimination and reconstruction. We have tested our proposed MAD-GAN using two recent datasets collected from real-world CPS: the Secure Water Treatment (SWaT) and the Water Distribution (WADI) datasets. Our experimental results showed that the proposed MAD-GAN is effective in reporting anomalies caused by various cyber-intrusions compared in these complex real-world systems.}
+      \field{eprinttype}{arXiv}
+      \field{month}{1}
+      \field{title}{{MAD-GAN: Multivariate Anomaly Detection for Time Series Data with Generative Adversarial Networks}}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1901.04997
+      \endverb
+      \verb{file}
+      \verb :Users/Emil/Library/Application Support/Mendeley Desktop/Downloaded/Li et al. - 2019 - MAD-GAN Multivariate Anomaly Detection for Time Series Data with Generative Adversarial Networks(2).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1901.04997
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1901.04997
+      \endverb
+    \endentry
+    \entry{Malhotra2016a}{article}{}
+      \name{author}{6}{}{%
+        {{hash=dcd5dcd4e4f78f96e2f472d3f01ede9c}{%
+           family={Malhotra},
+           familyi={M\bibinitperiod},
+           given={Pankaj},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d31c40be83c6c4e91877c31622bdc33a}{%
+           family={Ramakrishnan},
+           familyi={R\bibinitperiod},
+           given={Anusha},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0120e6b0607adbcd6b2dc964a3398b08}{%
+           family={Anand},
+           familyi={A\bibinitperiod},
+           given={Gaurangi},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dd153a0cfbbb770a226276234db9aa76}{%
+           family={Vig},
+           familyi={V\bibinitperiod},
+           given={Lovekesh},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e3552fa0520a6e47f5555c944932844d}{%
+           family={Agarwal},
+           familyi={A\bibinitperiod},
+           given={Puneet},
+           giveni={P\bibinitperiod}}}%
+        {{hash=11ddfe25cf35d38891cff07417fe10cf}{%
+           family={Shroff},
+           familyi={S\bibinitperiod},
+           given={Gautam},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{188cd65c41d431d5d7edef39504ff5a7}
+      \strng{fullhash}{57048ce25d0cba82861b5b81762a91df}
+      \strng{bibnamehash}{57048ce25d0cba82861b5b81762a91df}
+      \strng{authorbibnamehash}{57048ce25d0cba82861b5b81762a91df}
+      \strng{authornamehash}{188cd65c41d431d5d7edef39504ff5a7}
+      \strng{authorfullhash}{57048ce25d0cba82861b5b81762a91df}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mechanical devices such as engines, vehicles, aircrafts, etc., are typically instrumented with numerous sensors to capture the behavior and health of the machine. However, there are often external factors or variables which are not captured by sensors leading to time-series which are inherently unpredictable. For instance, manual controls and/or unmonitored environmental conditions or load may lead to inherently unpredictable time-series. Detecting anomalies in such scenarios becomes challenging using standard approaches based on mathematical models that rely on stationarity, or prediction models that utilize prediction errors to detect anomalies. We propose a Long Short Term Memory Networks based Encoder-Decoder scheme for Anomaly Detection (EncDec-AD) that learns to reconstruct 'normal' time-series behavior, and thereafter uses reconstruction error to detect anomalies. We experiment with three publicly available quasi predictable time-series datasets: power demand, space shuttle, and ECG, and two real-world engine datasets with both predictive and unpredictable behavior. We show that EncDec-AD is robust and can detect anomalies from predictable, unpredictable, periodic, aperiodic, and quasi-periodic time-series. Further, we show that EncDec-AD is able to detect anomalies from short time-series (length as small as 30) as well as long time-series (length as large as 500).}
+      \field{annotation}{Prediction-based on univariate series.}
+      \field{eprinttype}{arXiv}
+      \field{title}{{LSTM-based Encoder-Decoder for Multi-sensor Anomaly Detection}}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1607.00148
+      \endverb
+      \verb{file}
+      \verb :Users/Emil/Library/Application Support/Mendeley Desktop/Downloaded/Malhotra et al. - 2016 - LSTM-based Encoder-Decoder for Multi-sensor Anomaly Detection(2).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1607.00148
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1607.00148
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{Munir2019DeepAnT:Series}
+  \missing{Papadimitriou2005StreamingTime-series}
+\endrefsection
+\endinput
+

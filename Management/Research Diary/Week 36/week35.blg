@@ -1,9 +1,0 @@
-[0] Config.pm:304> INFO - This is Biber 2.12
-[0] Config.pm:307> INFO - Logfile is 'week35.blg'
-[39] biber-darwin:315> INFO - === Mon Aug 26, 2019, 10:45:56
-[59] Biber.pm:371> INFO - Reading 'week35.bcf'
-[154] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[160] Utils.pm:193> WARN - The file 'week35.bcf' does not contain any citations!
-[167] bbl.pm:636> INFO - Writing 'week35.bbl' with encoding 'latin1'
-[167] bbl.pm:739> INFO - Output to week35.bbl
-[167] Biber.pm:110> INFO - WARNINGS: 1

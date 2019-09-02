@@ -1,10 +1,11 @@
 # Fdb version 3
-["biber week35"] 1566809155 "week35.bcf" "week35.bbl" "week35" 1566809212
-  "week35.bcf" 1566809212 91382 818d2d45f49098f2efa37a915a7f1692 "pdflatex"
+["biber week35"] 1566809155 "week35.bcf" "week35.bbl" "week35" 1567423246
+  "week35.bcf" 1567423050 91382 818d2d45f49098f2efa37a915a7f1692 "pdflatex"
   (generated)
   "week35.bbl"
   "week35.blg"
-["pdflatex"] 1566809211 "week35.tex" "week35.pdf" "week35" 1566809212
+["pdflatex"] 1567423049 "week35.tex" "week35.pdf" "week35" 1567423246
+  "../Misc/diary.sty" 1566808828 3241 6dd734a13a61e29303a31925dbfcf3c0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -27,11 +28,14 @@
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1136768653 768 1321e9409b4137d6fb428ac9dc956269 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
+  "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
+  "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1248133631 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
   "/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty" 1365117071 2560 68a7cdbd7a5424fa22f4176117a417e9 ""
   "/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
@@ -141,17 +145,16 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1557342086 4259635 562fc36ec496993777a6c428d8bfb811 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "Misc/diary.sty" 1566809098 3241 6dd734a13a61e29303a31925dbfcf3c0 ""
   "Misc/images/LUBWen.pdf" 1566809098 42379 9aaf7af04dbc6e03d38a62ffc1aeb7c2 ""
-  "week35.aux" 1566809212 1075 76999b0aa391a39dfd87a6e3433c1763 "pdflatex"
+  "week35.aux" 1567423050 1075 76999b0aa391a39dfd87a6e3433c1763 "pdflatex"
   "week35.bbl" 1566809156 466 d461c786d5ba60caa26aa3f363275b19 "biber week35"
-  "week35.out" 1566809212 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "week35.run.xml" 1566809212 2324 06a3816a30e40f78cc215610dc691570 "pdflatex"
-  "week35.tex" 1566809211 452 05507d7a256d6d544c3dcdd7d11b80e7 ""
+  "week35.out" 1567423050 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "week35.run.xml" 1567423050 2324 06a3816a30e40f78cc215610dc691570 "pdflatex"
+  "week35.tex" 1567423246 1685 d91a666f06c68dd6c7e9c3131fea02d3 ""
   (generated)
   "week35.out"
+  "week35.bcf"
   "week35.pdf"
   "week35.aux"
   "week35.run.xml"
   "week35.log"
-  "week35.bcf"

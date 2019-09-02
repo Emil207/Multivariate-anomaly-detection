@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  26 AUG 2019 10:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  2 SEP 2019 13:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**week35.tex
-(./week35.tex
+**week36.tex
+(./week36.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -22,9 +22,9 @@ File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./Misc/diary.sty
+) (../Misc/diary.sty
 
-LaTeX Warning: You have requested package `Misc/diary',
+LaTeX Warning: You have requested package `../Misc/diary',
                but the package provides `diary'.
 
 Package: diary 
@@ -822,8 +822,8 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 \@quotelevel=\count340
 \@quotereset=\count341
- (./week35.aux)
-\openout1 = `week35.aux'.
+ (./week36.aux)
+\openout1 = `week36.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -907,11 +907,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package biblatex Info: Input encoding 'latin1' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'latin1'.
-\openout5 = `week35.bcf'.
+\openout5 = `week36.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'week35.bbl' found.
-(./week35.bbl)
+Package biblatex Info: ... file 'week36.bbl' found.
+(./week36.bbl)
 Package biblatex Info: Reference section=0 on input line 10.
 Package biblatex Info: Reference segment=0 on input line 10.
 \AtBeginShipoutBox=\box35
@@ -926,9 +926,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 10.
 LaTeX Info: Redefining \pageref on input line 10.
 LaTeX Info: Redefining \nameref on input line 10.
- (./week35.out) (./week35.out)
+ (./week36.out) (./week36.out)
 \@outlinefile=\write6
-\openout6 = `week35.out'.
+\openout6 = `week36.out'.
 
 <Misc/images/LUBWen.pdf, id=4, 287.25731pt x 383.66518pt>
 File: Misc/images/LUBWen.pdf Graphic file (type pdf)
@@ -941,14 +941,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
  []
 
 
-LaTeX Warning: Empty bibliography on input line 27.
+LaTeX Warning: Empty bibliography on input line 29.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
-LaTeX Font Info:    Try loading font information for U+msa on input line 29.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 31.
+LaTeX Font Info:    Try loading font information for U+msa on input line 31.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 29.
+LaTeX Font Info:    Try loading font information for U+msb on input line 31.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -970,29 +970,29 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
  <./Misc/images/LUBWen.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
- (./week35.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
-Package rerunfilecheck Info: File `week35.out' has not changed.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 31.
+ (./week36.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 31.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 31.
+Package rerunfilecheck Info: File `week36.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package logreq Info: Writing requests to 'week35.run.xml'.
-\openout1 = `week35.run.xml'.
+Package logreq Info: Writing requests to 'week36.run.xml'.
+\openout1 = `week36.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  20900 strings out of 492616
- 361413 string characters out of 6129482
- 814041 words of memory out of 5000000
+ 361429 string characters out of 6129482
+ 815044 words of memory out of 5000000
  24520 multiletter control sequences out of 15000+600000
  9839 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,14n,69p,838b,792s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on week35.pdf (1 page, 97389 bytes).
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on week36.pdf (1 page, 108798 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

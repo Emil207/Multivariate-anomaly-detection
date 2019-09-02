@@ -1,0 +1,20 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[44] biber-darwin:315> INFO - === Mon Sep  2, 2019, 13:29:17
+[70] Biber.pm:371> INFO - Reading 'main.bcf'
+[169] Biber.pm:889> INFO - Found 5 citekeys in bib section 0
+[184] Biber.pm:4093> INFO - Processing section 0
+[198] Biber.pm:4254> INFO - Looking for bibtex format file '../Misc/references.bib' for section 0
+[205] bibtex.pm:1523> INFO - LaTeX decoding ...
+[256] bibtex.pm:1340> INFO - Found BibTeX data source '../Misc/references.bib'
+[292] Utils.pm:193> WARN - month field 'jan' in entry 'Li2019a' is not an integer - this will probably not sort properly.
+[303] Utils.pm:193> WARN - BibTeX subsystem: /var/folders/5b/7hjp_spn6h9dwszr28gqzy7m0000gp/T/LMNekCHodO/references.bib_2567.utf8, line 6, warning: 176 characters of junk seen at toplevel
+[303] Utils.pm:193> WARN - I didn't find a database entry for 'Munir2019DeepAnT:Series' (section 0)
+[303] Utils.pm:193> WARN - I didn't find a database entry for 'Papadimitriou2005StreamingTime-series' (section 0)
+[313] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[314] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[314] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[314] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[325] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[327] bbl.pm:739> INFO - Output to main.bbl
+[327] Biber.pm:110> INFO - WARNINGS: 4

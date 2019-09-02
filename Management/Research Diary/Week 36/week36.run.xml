@@ -41,13 +41,13 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>week34.bcf</file>
+      <file>week36.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>week34.bbl</file>
+      <file>week36.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -60,23 +60,23 @@
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>week34</infile>
+      <infile>week36</infile>
     </cmdline>
     <input>
-      <file>week34.bcf</file>
+      <file>week36.bcf</file>
     </input>
     <output>
-      <file>week34.bbl</file>
+      <file>week36.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>week34.bbl</file>
+      <file>week36.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>week34.bcf</file>
+      <file>week36.bcf</file>
     </requires>
     <requires type="editable">
       <file>Misc/references.bib</file>
