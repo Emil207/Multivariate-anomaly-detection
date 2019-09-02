@@ -1,0 +1,17 @@
+
+.DS_Store
+*.pyc
+
+data_test/
+deprecated/
+nab.egg-info/
+.idea/
+.project
+.pydevproject
+htmjava.log
+nab/detectors/htmjava/.pydevproject
+scripts/.ipynb_checkpoints/
+
+# Generated files
+
+*resultsSummary*
