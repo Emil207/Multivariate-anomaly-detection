@@ -1,0 +1,102 @@
+Inspiration:
+\begin{itemize}
+    \item \url{http://www.nada.kth.se/~ann/exjobb/maxim_wolpher.pdf}
+    \item \cite{Aggarwal2013a}
+\end{itemize}
+
+\section*{Overview}
+
+\subsection{Prediction-based}
+
+\begin{itemize}
+    \item VARIMA \cite{Aggarwal2013a}
+    \item Neural Networks (CNN/RNN/LSTM/GRU)
+    \item Using PCA to get univariate forecasting \cite{Aggarwal2013a}
+    
+\end{itemize}
+
+\subsection{Distance and density-based}
+
+\begin{itemize}
+    \item K-Nearest Neighbor (KNN) \cite{Li2019a}
+    \item Clustering Based Local Outlier Factor (CBLOF) \cite{Li2019a}
+    \item Dynamic Time Warping \cite{Aggarwal2013a}
+    \item Mahalanobis distance \cite{Aggarwal2013a}
+\end{itemize}
+
+\subsection{Probabilistic}
+
+\begin{itemize}
+    \item Hidden Markov Model \cite{Aggarwal2013a}
+    \item Dynamic Bayesian Networks
+\end{itemize}
+
+\subsection{Linear Model}
+
+\begin{itemize}
+    \item Principal Component Analysis (PCA) \cite{Li2019a}
+    \item Partial Least Squares (PLS) \cite{Li2019a}
+    \item Matrix Factorization \cite{Aggarwal2013a}
+    \item Support Vector Machines \cite{Aggarwal2013a}
+\end{itemize}
+
+\subsection{Deep Learning}
+
+\begin{itemize}
+    \item Auto Encoder (AE) \cite{Li2019a}
+    \item Deep Autoencoding Gaussian Mixture Model (DAGMM) \cite{Li2019a}
+    \item LSTM Encoder-Decoder (LSTM-ED) \cite{Li2019a}
+    \item Generative Adversarial Networks (GAN) \cite{Li2019a}
+\end{itemize}
+
+\subsection{Transformation to other representations}
+
+\begin{itemize}
+    \item Leveraging Trajectory Representations of Time Series \cite{Aggarwal2013a}
+    \item Numeric Multidimensional Transformations \cite{Aggarwal2013a}
+    \item Discrete Sequence Transformations \cite{Aggarwal2013a}
+\end{itemize}
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+
+
+\section{Prediction-based}
+
+Supervised regression techniques for predicting time-series and then finding the contextual anomalies as deviations from the predicted value is a common method. Traditional methods such as ARIMA and VARIMA can be used for the forecasting, but recently deep learning methods for predicting the values have been explored. In the multivariate case PCA is often used to reduce the problem to a univariate problem.
+
+\subsection{VARIMA} The following is cut from chapter 9.2 in \cite{Aggarwal2013a}. \newline
+
+"By predicting the next value in the series contextual anomalies can be found by comparing the predicted value with the measured. This can be seen as a supervised method for unsupervised anomaly detection. The basic idea in multivariate auto-regressive models is to predict the values at each time-stamp with the past window of length p. The main difference from uni-variate regressive models is that the value at each time-stamp (for any particular series) is predicted as a linear function of all the d · p values in all the streams in the previous window of length p.
+
+One problem with the approach is that of increased computational complexity because of the inversion of a matrix. How can one use the basic principle of multivariate regression for forecasting, while keeping the complexity to a manageable level? Two such methods have been proposed in the literature:
+
+\begin{enumerate}
+    \item One can select a subset of streams in order to perform the regression with respect to a smaller set of variables. (9.2.2.2)
+    \item A fundamentally different approach is to use the notion of hidden variables to decompose the multivariate forecasting problem into a (more easily solvable) set of uni-variate forecasting problems. (9.2.2.3)"
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+
+\subsection{Neural networks} Neural networks have been effective at predicting time-series. Especially recurrent neural networks. Information covering this: 
+\begin{itemize}
+    \item LSTM-based Encoder-Decoder for Multi-Sensor Anomaly Detection \cite{Malhotra2016a}.
+    \item Multivariate Time Series Forecasting with LSTMs in Keras \newline \url{https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/}
+    \item DeepAnT: A Deep Learning Approach for Unsupervised Anomaly Detection in Time Series \cite{Munir2019DeepAnT:Series}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%
+
+\subsection{PCA-based methods} These sources present methods and ideas of PCA-based methods for anomaly detection: 
+\begin{itemize}
+    \item Streaming Pattern Discovery in Multiple Time-Series \cite{Papadimitriou2005StreamingTime-series}
+\end{itemize}
+
+Regression modelling is more susceptible to noise and outliers. PCA-based methods are generally more robust. They are able to express a large number of correlated data streams into a small number of uncorrelated data streams. \cite{Aggarwal2013a}. Any forecasting model can be applied to the reduced hidden variables. This reduces the time and space complexity by orders of magnitude, because typical forecasting methods are quadratic or worse on the number of variables. Space complexity for multivariate AR is $\bigO{(n^3l^2)}$, where $l$ is the auto-regression window length. For AR per stream (ignoring correlations), it is $\bigO{(nl^2)}$. However, for SPIRIT, we need $\bigO{(kn)}$ space, with one AR model per stream, the total space complexity is $\bigO{(kn+kl^2)}$. \cite{Papadimitriou2005StreamingTime-series}
+
+
+\section{Deep learning}
