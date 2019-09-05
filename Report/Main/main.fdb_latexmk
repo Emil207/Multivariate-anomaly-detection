@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber main"] 1567423756 "main.bcf" "main.bbl" "main" 1567423759
+["biber main"] 1567426003 "main.bcf" "main.bbl" "main" 1567426009
   "../Misc/references.bib" 1567423398 26938 eb3327ec5c3d7e205fa4af7b39952a78 ""
-  "main.bcf" 1567423759 92896 fe7b5732a2c676b017a9b92df91c1786 "pdflatex"
+  "main.bcf" 1567426009 92946 acf92e3d162c2dc35e17184518f28739 "pdflatex"
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1567423758 "main.tex" "main.pdf" "main" 1567423759
+  "main.bbl"
+["pdflatex"] 1567426008 "main.tex" "main.pdf" "main" 1567426009
   "../Chapters/1Introduction.tex" 1567411643 5610 ec38b9e4d76bd7deb7a3946654596b2f ""
-  "../Chapters/2Methods.tex" 1567423453 5325 72bb26fb379ea5480f30348b22e3f865 ""
+  "../Chapters/2Methods.tex" 1567425992 5379 381187a1ca1bab38d740330c0b7874a7 ""
   "../Misc/format.cls" 1566433283 22503 4e86b35f53d11dff79b34f70ea6dfb46 ""
   "../Misc/preamble.sty" 1567411643 212 801b865591390327904f314cdb9fccf8 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -149,16 +149,16 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1557342086 4259635 562fc36ec496993777a6c428d8bfb811 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "main.aux" 1567423759 6390 2a6c9375d583f7cd6f30cf8402cbbd3c "pdflatex"
-  "main.bbl" 1567423758 10151 a41feb8ee6e6b1c360714e388a7d5926 "biber main"
-  "main.out" 1567423759 315 79470b1ca19d5f196f4e8b008ac837ce "pdflatex"
-  "main.run.xml" 1567423759 2319 7c33d3e3f97029e11ed1a2054c1a94df "pdflatex"
-  "main.tex" 1567423748 571 01986fd379976528fce623bc56e55e7b ""
+  "main.aux" 1567426009 6550 9971a962861e74692a58e43c2cc73a79 "pdflatex"
+  "main.bbl" 1567426005 13087 239836a1d05fdf636121ae599663e487 "biber main"
+  "main.out" 1567426009 315 79470b1ca19d5f196f4e8b008ac837ce "pdflatex"
+  "main.run.xml" 1567426009 2319 7c33d3e3f97029e11ed1a2054c1a94df "pdflatex"
+  "main.tex" 1567425997 571 01986fd379976528fce623bc56e55e7b ""
   (generated)
-  "main.pdf"
   "main.aux"
+  "main.pdf"
   "main.thm"
+  "main.bcf"
   "main.run.xml"
   "main.log"
   "main.out"
-  "main.bcf"

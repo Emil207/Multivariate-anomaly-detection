@@ -22,7 +22,7 @@ Inspiration:
     \item Clustering Based Local Outlier Factor (CBLOF) \cite{Li2019a}
     \item Dynamic Time Warping \cite{Aggarwal2013a}
     \item Mahalanobis distance \cite{Aggarwal2013a}
-    \item Isolation Forest 
+    \item Isolation Forest \cite{Liu2008}
 \end{itemize}
 
 \subsection{Probabilistic}
@@ -30,6 +30,7 @@ Inspiration:
 \begin{itemize}
     \item Hidden Markov Model \cite{Aggarwal2013a}
     \item Dynamic Bayesian Networks
+
 \end{itemize}
 
 \subsection{Linear Model}
@@ -48,6 +49,7 @@ Inspiration:
     \item Deep Autoencoding Gaussian Mixture Model (DAGMM) \cite{Li2019a}
     \item LSTM Encoder-Decoder (LSTM-ED) \cite{Li2019a}
     \item Generative Adversarial Networks (GAN) \cite{Li2019a}
+    \item Hierarchical Temporal Memory
 \end{itemize}
 
 \subsection{Transformation to other representations}
@@ -99,5 +101,14 @@ One problem with the approach is that of increased computational complexity beca
 
 Regression modelling is more susceptible to noise and outliers. PCA-based methods are generally more robust. They are able to express a large number of correlated data streams into a small number of uncorrelated data streams. \cite{Aggarwal2013a}. Any forecasting model can be applied to the reduced hidden variables. This reduces the time and space complexity by orders of magnitude, because typical forecasting methods are quadratic or worse on the number of variables. Space complexity for multivariate AR is $\bigO{(n^3l^2)}$, where $l$ is the auto-regression window length. For AR per stream (ignoring correlations), it is $\bigO{(nl^2)}$. However, for SPIRIT, we need $\bigO{(kn)}$ space, with one AR model per stream, the total space complexity is $\bigO{(kn+kl^2)}$. \cite{Papadimitriou2005StreamingTime-series}
 
+%%%%%%%%%%%%%%%%%%%
 
 \section{Deep learning}
+
+
+%%%%%%%%%%%%%%%%%%%
+
+\section{Distance and density-based}
+
+\subsection{Isolation Forest}
+Performs better than LOF and random forests

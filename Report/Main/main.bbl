@@ -121,6 +121,54 @@
       \verb http://arxiv.org/abs/1901.04997
       \endverb
     \endentry
+    \entry{Liu2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=231b376c1eeea575643f44deb86338c4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Fei\bibnamedelima Tony},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=9bc17f24d02724c02d418a27dfea50bb}{%
+           family={Ting},
+           familyi={T\bibinitperiod},
+           given={Kai\bibnamedelima Ming},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=69b2ac982b578eacb22a991b3024e410}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zhi\bibnamedelima Hua},
+           giveni={Z\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{facf64454d5633117a12faa599e65058}
+      \strng{fullhash}{004bb650ffa6f0b4a78590750934afe6}
+      \strng{bibnamehash}{004bb650ffa6f0b4a78590750934afe6}
+      \strng{authorbibnamehash}{004bb650ffa6f0b4a78590750934afe6}
+      \strng{authornamehash}{facf64454d5633117a12faa599e65058}
+      \strng{authorfullhash}{004bb650ffa6f0b4a78590750934afe6}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Most existing model-based approaches to anomaly detection construct a profile of normal instances, then identify instances that do not conform to the normal profile as anomalies. This paper proposes a fundamentally different model-based method that explicitly isolates anomalies instead of profiles normal points. To our best knowledge, the concept of isolation has not been explored in current literature. The use of isolation enables the proposed method, iForest, to exploit sub-sampling to an extent that is not feasible in existing methods, creating an algorithm which has a linear time complexity with a low constant and a low memory requirement. Our empirical evaluation shows that iForest performs favourably to ORCA, a near-linear time complexity distance-based method, LOF and Random Forests in terms of AUC and processing time, and especially in large data sets. iForest also works well in high dimensional problems which have a large number of irrelevant attributes, and in situations where training set does not contain any anomalies. {©} 2008 IEEE.}
+      \field{isbn}{9780769535029}
+      \field{issn}{15504786}
+      \field{journaltitle}{Proceedings - IEEE International Conference on Data Mining, ICDM}
+      \field{title}{{Isolation forest}}
+      \field{year}{2008}
+      \field{pages}{413\bibrangedash 422}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/ICDM.2008.17
+      \endverb
+      \verb{file}
+      \verb :Users/Emil/Downloads/04781136.pdf:pdf
+      \endverb
+    \endentry
     \entry{Malhotra2016a}{article}{}
       \name{author}{6}{}{%
         {{hash=dcd5dcd4e4f78f96e2f472d3f01ede9c}{%
