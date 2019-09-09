@@ -111,4 +111,7 @@ Regression modelling is more susceptible to noise and outliers. PCA-based method
 \section{Distance and density-based}
 
 \subsection{Isolation Forest}
-Performs better than LOF and random forests
+Time complexity: Linear
+Description: Builds an ensemble of isolation trees for a given dataset, then anomalies are those instances which have short average paths. Two variables in the method, number of trees and sub-sampling size. It uses no distance or density-based measure and thus eliminates the high computational cost. It has the capacity to scale up to handle extremely large data size and high-dimensional problems with a large number of irrelevant attributes.
+
+For: Works very good for anomaly detection since it isolates the outliers in random trees. Performs better than LOF and random forests.
