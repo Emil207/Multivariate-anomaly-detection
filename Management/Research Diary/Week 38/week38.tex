@@ -1,0 +1,50 @@
+%%% Research Diary - Entry
+
+\documentclass[11pt,letterpaper]{article}
+
+\newcommand{\workingDate}{\textsc{2019 $|$ September $|$ Week 38}}
+
+
+\usepackage{../Misc/diary}
+
+\begin{document}
+\univlogo
+
+\title{Research Diary - Example Entry}
+
+{\Huge Weekly summary}\\[5mm]
+
+\section*{Monday, September 16}
+Talked to Mattias about the dynamic time warping as a possibility for preprocessing.
+Also discussed how isolation forests could be used for finding collective anomalies.
+
+\section*{Tuesday, September 17}
+Fixed papers in Lund
+
+\section*{Wednesday, September 18}
+Isolation forest can by extracting statistical features over a window and running an isolation forest on those. 
+
+\section*{Thursday, September 19}
+Using linear models is an alternative by making all dimensions for some time stamps to points and then use an PCA on this. See notes. However, it could be computationally expensive. GANs are interesting to explore for finding collective anomalies. Correlation with other method scores could be plotted to see how they work. Some methods could work better for certain kinds of anomalies. 
+
+\section*{Friday, September 20}
+Researching the GAN and looking at the code from the project. Tensorflow with keras should be used to build the model. Could be interesting to look into WGAN and MH-GAN for improvements, however not at this point. Focus on building a GAN.
+
+1. Make simulation
+2. Build GAN-model
+3. Write report
+
+Different files:
+Simulation files with different attributes
+Model files (GAN, isolation forest)
+Run file
+
+To do:
+Convert simulation script to python and structure
+Learn TF & SQL
+Start with GAN-script
+
+
+\printbibliography
+
+\end{document}
