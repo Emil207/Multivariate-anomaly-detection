@@ -16,10 +16,8 @@ Inspiration:
 \end{itemize}
 
 \subsection{Distance and density-based}
-
 \begin{itemize}
-    \item K-Nearest Neighbor (KNN) \cite{Li2019a}
-    \item Clustering Based Local Outlier Factor (CBLOF) \cite{Li2019a}
+  
     \item Dynamic Time Warping \cite{Aggarwal2013a}
     \item Mahalanobis distance \cite{Aggarwal2013a}
     \item Isolation Forest \cite{Liu2008}
@@ -32,7 +30,6 @@ Inspiration:
     \item Dynamic Bayesian Networks
 
 \end{itemize}
-
 \subsection{Linear Model}
 
 \begin{itemize}
@@ -105,13 +102,56 @@ Regression modelling is more susceptible to noise and outliers. PCA-based method
 
 \section{Deep learning}
 
+\subsection{Generative Adversarial Networks (GAN)}
+
+Time complexity:
+
+
+Short:
+Generative Adversarial Networks have recently been successfully used in image processing. A few studies have been made with good results for time series applications [source]. The unsupervised nature of GANs makes it a good model for tasks like anomaly detection.
+
+Description:
+A GAN consists of a generator and a discriminator. The generator is generating fake data to fool the discriminator and the discriminator is trying to detect if the generated data is fake. In [source] a framework for anomaly detection of multivariate time series is proposed. In the framework the generator takes its inputs from a random latent space. The entire variable set is treated concurrently to capture the interactions between the variables. Before discrimination the time series is divided into subsets with a sliding window. Based on the outputs of the discriminator, both the parameters of the discriminator and the generator are updated. The generator is exploited by reconstruction, the residuals between the reconstructed data and real-time testing samples. The discriminator is exploited by classifying the time series. A DR-score which is combining the two losses is used to detect potential anomalies.
+
+
+For:
+Works well for finding collective anomalies. Could be expensive.
+
+
 
 %%%%%%%%%%%%%%%%%%%
 
 \section{Distance and density-based}
 
-\subsection{Isolation Forest}
-Time complexity: Linear
-Description: Builds an ensemble of isolation trees for a given dataset, then anomalies are those instances which have short average paths. Two variables in the method, number of trees and sub-sampling size. It uses no distance or density-based measure and thus eliminates the high computational cost. It has the capacity to scale up to handle extremely large data size and high-dimensional problems with a large number of irrelevant attributes.
+\subsection{Isolation Forest }
 
-For: Works very good for anomaly detection since it isolates the outliers in random trees. Performs better than LOF and random forests.
+Time complexity: 
+Linear
+
+Description: 
+Builds an ensemble of isolation trees for a given dataset, then anomalies are those instances which have short average paths. Two variables in the method, number of trees and sub-sampling size. It uses no distance or density-based measure and thus eliminates the high computational cost. It has the capacity to scale up to handle extremely large data size and high-dimensional problems with a large number of irrelevant attributes. 
+
+For: 
+Works very good for point anomaly detection since it isolates single points easily. Performs better than LOF and random forests for this purpose. It could also be used on statistical features after windowing for finding collective anomalies.
+
+\section{Simulation of data}
+Several instances were generated using the statsmodel package in Python. 
+Supposed to look like real data. If I have time, try block bootstrapping for making data that resembles the specific use case.
+
+Possible building blocks:
+\begin{itemize}
+\item Vibration sensors (involving frequencies)
+\item Temperature sensors 
+\item Proximity sensors
+\item Flow sensors
+\item Pressure sensors
+\item Level sensors
+\item Collective anomalies (appearing with specified frequency)
+\item Contextual anomalies (appearing with specified frequency)
+\end{itemize}
+All sensors should be possible to add as clustered sensors. Lag between specific sensors should be possible to add. To begin with no frequency variations will be applied. 
+
+\section{Generation of data}
+Think about.
+
+

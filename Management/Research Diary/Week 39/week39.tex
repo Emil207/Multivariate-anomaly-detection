@@ -1,0 +1,75 @@
+%%% Research Diary - Entry
+
+\documentclass[11pt,letterpaper]{article}
+
+\newcommand{\workingDate}{\textsc{2019 $|$ September $|$ Week 39}}
+
+
+\usepackage{../Misc/diary}
+
+\begin{document}
+\univlogo
+
+\title{Research Diary - Example Entry}
+
+{\Huge Weekly summary}\\[5mm]
+
+\section*{Monday, September 23}
+Helped with labelling of images. Also read the time series GAN-paper.
+
+\section*{Tuesday, September 24}
+Meeting with Maria. Simulation looks great, just add different anomalies. AR should be enough. 
+Don't forget to save the scripts that I'm doing so that they can be reproduced. Two weeks of focus on implementing the GAN.
+
+\section*{Wednesday, September 25}
+Read paper on GAN. Not sure how GAN will work out for finding shapes, if at all. Shapelets could be an alternative to finding shapes. HOT SAX is already doing this, although for one dimension and it is an expensive algorithm. 
+What I am learning on GAN:
+
+\textbf{GAN:}
+A framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game. Other loss functions have been applies, such as Wasserstein loss (see the paper on Wasserstein GAN). Wasserstein GANs are less vulnerable to getting stuck than minimax-based GANs, and avoid problems with vanishing gradients. The earth mover distance also has the advantage of being a true metric: a measure of distance in a space of probability distributions. Cross-entropy is not a metric in this sense. GANs frequently fail to converge. Researchers have tried to use various forms of regularization to improve GAN convergence, including:
+
+Adding noise to discriminator inputs: See, for example, Toward Principled Methods for Training Generative Adversarial Networks.
+Penalizing discriminator weights: See, for example, Stabilizing Training of Generative Adversarial Networks through Regularization.
+
+\textbf{Generative model:}
+Generative models can generate new data instances. Generative models capture the joint probability p(X, Y), or just p(X) if there are no labels.
+
+\textbf{Discriminative model:}
+Also referred to as conditional models. Discriminative models discriminate between different kinds of data instances. Discriminative models capture the conditional probability p(Y | X).
+
+\textbf{Adversarial machine learning :}
+A technique employed in the field of machine learning which attempts to fool models through malicious input.
+
+\textbf{Minimax loss:}
+In game theory, minimax is a decision rule used to minimize the worst-case potential loss; in other words, a player considers all of the best opponent responses to his strategies, and selects the strategy such that the opponent's best strategy gives a payoff as large as possible. In the paper that introduced GANs, the generator tries to minimize the following function while the discriminator tries to maximize it:
+\begin{equation}
+    E_x[log(D(x))] + E_z[log(1-D(G(z)))]
+\end{equation}
+
+$D(x)$ is the discriminator's estimate of the probability that real data instance $x$ is real. $E_x$ is the expected value over all real data instances. $G(z)$ is the generator's output when given noise $z$. $D(G(z))$ is the discriminator's estimate of the probability that a fake instance is real. $E_z$ is the expected value over all random inputs to the generator (in effect, the expected value over all generated fake instances $G(z)$). The formula derives from the cross-entropy between the real and generated distributions.
+
+\textbf{Cross entropy:}
+Cross-entropy quantifies the difference between two probability distributions.
+
+\textbf{Vanishing Gradients:}
+Research has suggested that if your discriminator is too good, then generator training can fail due to vanishing gradients. In effect, an optimal discriminator doesn't provide enough information for the generator to make progress. The Wasserstein loss is designed to prevent vanishing gradients even when you train the discriminator to optimality. The original GAN paper proposed a modification to minimax loss to deal with vanishing gradients.
+
+\textbf{Mode Collapse:}
+Usually you want your GAN to produce a wide variety of outputs. You want, for example, a different face for every random input to your face generator. However, if a generator produces an especially plausible output, the generator may learn to produce only that output. In fact, the generator is always trying to find the one output that seems most plausible to the discriminator. If the generator starts producing the same output (or a small set of outputs) over and over again, the discriminator's best strategy is to learn to always reject that output. But if the next generation of discriminator gets stuck in a local minimum and doesn't find the best strategy, then it's too easy for the next generator iteration to find the most plausible output for the current discriminator. Each iteration of generator over-optimizes for a particular discriminator, and the discriminator never manages to learn its way out of the trap. As a result the generators rotate through a small set of output types. This form of GAN failure is called mode collapse. The Wasserstein loss alleviates mode collapse by letting you train the discriminator to optimality without worrying about vanishing gradients. If the discriminator doesn't get stuck in local minima, it learns to reject the outputs that the generator stabilizes on. So the generator has to try something new.
+
+\textbf{Conditional GANs}
+Instead of modeling the joint probability P(X, Y), conditional GANs model the conditional probability P(X | Y).
+
+\textbf{Progressive GANs:}
+In a progressive GAN, the generator's first layers produce very low resolution images, and subsequent layers add details. This technique allows the GAN to train more quickly than comparable non-progressive GANs, and produces higher resolution images.
+
+
+\section*{Thursday, September 26}
+Bus to Munich. 
+
+\section*{Friday, September 27}
+No work. Whole day in Munich.
+
+\printbibliography
+
+\end{document}
