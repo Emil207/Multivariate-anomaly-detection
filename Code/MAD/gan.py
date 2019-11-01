@@ -41,7 +41,7 @@ def training(X_train, generator, discriminator, gan, samples, timesteps, feature
         # ---------------------
                     
         # Generate fake samples
-        noise = np.random.normal(0,1, [samples, timesteps, features])
+        noise = np.random.normal(0, 1, [samples, timesteps, features])
         G_z = generator.predict(noise) 
         # Get the sampled real series
         X = X_train
@@ -55,7 +55,7 @@ def training(X_train, generator, discriminator, gan, samples, timesteps, feature
         # Train the discriminator
         # ------------------------
             
-        discriminator.trainable=True
+        discriminator.trainable = True
         d_loss_real = discriminator.train_on_batch(X, valid)
         d_loss_fake = discriminator.train_on_batch(G_z, fake)
         d_loss = 0.5 * np.add(d_loss_real, d_loss_fake)
@@ -66,11 +66,11 @@ def training(X_train, generator, discriminator, gan, samples, timesteps, feature
             
         discriminator.trainable = False
             
-        #Tricking the noised input of the Generator as real data
+        # Tricking the noised input of the generator as real data
         noise = np.random.normal(0,1, [samples, timesteps, features])
             
-        # Training the GAN by alternating the training of the Discriminator          
-        # and training the chained GAN model with Discriminator’s weights freezed.
+        # Training the GAN by alternating the training of the discriminator          
+        # and training the chained GAN model with discriminator’s weights freezed.
         g_loss = gan.train_on_batch(noise, valid)
          
         # -------------------------------
@@ -80,14 +80,15 @@ def training(X_train, generator, discriminator, gan, samples, timesteps, feature
         with train_writer.as_default():
                 tf.summary.scalar('d_loss', d_loss, step=e)
                 tf.summary.scalar('g_loss', g_loss, step=e)        
-        if e % (epochs/10) == 0:
-            plot_generated_series(generator, noise, timesteps, features)
+       # if e % (epochs/10) == 0:
+       #     plot_generated_series(generator, noise, timesteps, features)
 
     
 def plot_generated_series(generator, noise, timesteps, features, dim=(10,10)):
-    #noise= np.random.normal(loc=0, scale=1, size=[4, timesteps, features])
+    
     generated_series = generator.predict(noise)
     plt.figure(figsize=(10,10))
+    
     for i in range(generated_series.shape[0]):
         plt.subplot(dim[0], dim[1], i+1)
         plt.plot(generated_series[i])
