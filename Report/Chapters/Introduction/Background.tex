@@ -1,0 +1,13 @@
+%-- Introduction --%
+Anomaly detection, or outlier detection, in time series has historically been a common topic for research. Although this has mostly been with univariate data in smaller amounts. However, with the rise of the Internet of Things (IoT) and the rapid increase of computational power, this has changed. The amount of data is in many cases very big and in many cases the data is unlabeled.   A common origin of time series data are sensor systems that appear in many real-world applications such as space shuttles, health care monitoring and factories. In those systems, a lot of multivariate time series data is generated continuously, and it is often of relevance to find unexpected events. 
+
+%-- Types of anomalies and multivariate setting --%
+When handling time series it is important to catch the temporal dependencies between time steps. Anomalies can be defined as a lack of temporal continuity in the long or short-term history. In this thesis anomalies will be divided into anomalies within a time series, which could be either \textit{contextual} or \textit{collective}, and anomalies between the time series in the multivariate setting. Contextual anomalies refer to the short-term anomalies when values at specific time stamps suddenly change with respect to their temporally adjacent values. Collective anomalies refer to the long-term anomalies when entire time series or large subsequences within a time series have unusual shapes. When working with multivariate time series it is possible to detect anomalies in each univariate time series seperately. However, the cross-correlation between different time series could also be helpful in discovering anomalies. \cite{Aggarwal2013}
+
+%-- Unsupervised vs supervised --%
+
+%-- Offline vs online --%
+% Batch processing or streaming
+
+%-- Problem formulation --%
+

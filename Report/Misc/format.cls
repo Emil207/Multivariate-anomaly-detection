@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{Misc/format}%
+\ProvidesClass{../Misc/format}%
   [2018/02/20 A class for theses at LTH, based on memoir]
 
 \DeclareOption{paper}{%
